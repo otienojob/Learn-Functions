@@ -21,8 +21,8 @@ while True:
         print(f"The age has to be an integer!")
         while True:
             studentGender=input(f"Enter the Student's gender: \n").strip().upper()
-            if studentGender in ["M","F","Male","Female"]
-            break
+            if studentGender in ["M","F","Male","Female"]:
+                break
         print(f"Enter a valide gender entry - M or F or Male or Female ")
         studentProfile={
             "Student Names":student_name,
